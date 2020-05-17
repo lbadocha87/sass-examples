@@ -1,0 +1,19 @@
+nav {
+    background-color: yellow;
+
+    ul {
+        padding: 17px;
+
+        li {
+            display: inline-block;
+
+            a {
+                color: red;
+
+                &:hover {
+                    color: pink;
+                }
+            }
+        }
+    }
+}

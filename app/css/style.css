@@ -1,0 +1,39 @@
+h1 {
+  color: blue;
+  font-size: 32px; }
+
+p {
+  color: blue;
+  font-size: 16px; }
+
+.outer-box {
+  height: 600px;
+  width: 400px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.inner-box {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+
+.double-inner-box {
+  height: 50px;
+  width: 50px;
+  background-color: red; }
+
+nav {
+  background-color: yellow; }
+  nav ul {
+    padding: 17px; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        color: red; }
+        nav ul li a:hover {
+          color: pink; }
